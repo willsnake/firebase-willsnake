@@ -42,7 +42,17 @@ store.subscribe(() => {
 });
 
 injectGlobal`
-    html,body { height: 100%; margin: 0px; padding: 0px; text-align: center; }
+    html,body {
+      margin: 0px;
+      padding: 0px;
+      height: 100%;
+      text-align: center;
+    }
+
+    #root {
+      height: 100%;
+      border: 1px solid black;
+    }
 `;
 
 render(

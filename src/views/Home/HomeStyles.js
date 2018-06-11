@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-const HomeContainer = styled.div`
-  border: 1px solid black;
-`;
+const HomeContainer = styled.div``;
 
 export { HomeContainer };
