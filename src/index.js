@@ -18,6 +18,8 @@ import { loadState, saveState } from './utils/localStorage';
 import rootSaga from './sagas';
 // Middlewares
 import logger from './middlewares/logger';
+// Semantic Styles
+import 'semantic-ui-css/semantic.min.css';
 
 const sagaMiddleware = createSagaMiddleware();
 
